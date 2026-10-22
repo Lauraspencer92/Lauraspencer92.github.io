@@ -1,0 +1,47 @@
+body {
+    background-color: lightskyblue;
+    color: black;
+    font-family: Georgia;
+    text-align: center;
+
+}
+
+ul {
+    
+    display: inline-block;
+    text-align: left;
+
+}
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.column {
+    width: 30%;
+}
+
+h1, h2 {
+    text-shadow: 2px 2px 4px grey;
+
+}
+
+.keyword {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.skills-list {
+    list-style-type: square;
+}
+
+
+@media (max-width: 600px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .column {
+        width: 100%;
+    }
+}
